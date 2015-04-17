@@ -1,6 +1,6 @@
-<%@ page language="java" import="com.cn.conwel.domain.FundBean,java.util.List" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" import="com.cn.conwel.domain.FundBean,java.util.List" pageEncoding="UTF-8"%>
 <%
-    String path = request.getContextPath();
+    String path = request.getContextPath();  
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
     List<FundBean>  fundBeans  =  (List<FundBean>)request.getAttribute("fundBeans");
     if(fundBeans == null){
